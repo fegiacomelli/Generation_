@@ -17,9 +17,9 @@ public class atividade2 {
 		System.out.println("\nInsira o terceiro numero: ");
 		num3 = scan.nextInt();
 		
-		if(num1<num2 && num1<num3)
+		if(num1<=num2 && num1<=num3)
 		{
-        	   if(num2<num3)
+        	   if(num2<=num3)
         	   {
         		   System.out.println("\nA ordem é: "+num1+" "+num2+" "+num3);
         	   }
@@ -30,9 +30,9 @@ public class atividade2 {
         	
 		}
         	      
-		else if(num2<num3 && num2<num1)
-           {
-			 if(num1<num3)
+		else if(num2<=num3 && num2<=num1)
+         {
+			 if(num1<=num3)
       	   {
       		   System.out.println("\nA ordem é: "+num2+" "+num1+" "+num3);
       	   }
@@ -41,11 +41,11 @@ public class atividade2 {
       		   System.out.println("\nA ordem é: "+num2+" "+num3+" "+num1);
       	   }
         	    	   
-            }
+         }
         	    	      
-		else if(num3<num1 && num3<num2)
-          {
-			 if(num2<num1)
+		 else 
+         {
+			 if(num2<=num1)
       	   {
       		   System.out.println("\nA ordem é: "+num3+" "+num2+" "+num1);
       	   }
@@ -53,11 +53,9 @@ public class atividade2 {
       	   {
       		   System.out.println("\nA ordem é: "+num3+""+num1+""+num2);
       	   }
+			 
           }
-
-        	       
-		
-		                  
+	                  
 
 	}
 
