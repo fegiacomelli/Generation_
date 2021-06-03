@@ -9,7 +9,7 @@ public class atividade4 {
 	public static void main(String[] args) {
 		
 		float num;
-		double raiz;
+		double r;
 		Scanner scan = new Scanner(System.in);
 		
 		System.out.println("\nInsira um numero: ");
@@ -17,15 +17,15 @@ public class atividade4 {
 		
 		if(num%2==0)
 		{
-			raiz =  Math.sqrt(num);
+			r =  Math.sqrt(num);
 			System.out.println("\n"+num+" é numero par");
-			System.out.printf("\nA raiz quadrada é : %2.2f",raiz);
+			System.out.printf("\nA raiz quadrada é : %2.2f",r);
 		}
 		else 
 		{
-			raiz =  Math.pow(num,2);
+			r =  Math.pow(num,2);
 			System.out.println("\n"+num+" é numero impar!");
-			System.out.printf("\nA Elevado ao quadrado é : %2.2f",raiz);
+			System.out.printf("\nA Elevado ao quadrado é : %2.2f",r);
 		}	
 		
 
