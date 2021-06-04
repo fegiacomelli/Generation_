@@ -25,10 +25,7 @@ public class Atividade4 {
 		while(NP!=0)
 		{	
 		
-		System.out.println("\nQual seu sexo: ");
-		System.out.println("\n1-Feminino");
-		System.out.println("\n2-Masculino");
-		System.out.println("\n3-Outros");
+		System.out.println("\nQual seu sexo: \n1-Feminino\n2-Masculino\n3-Outros");
 		s = scan.nextInt();
 		
 		switch(s)
@@ -37,10 +34,7 @@ public class Atividade4 {
 		case 1: 
 			System.out.println("\nQual sua idade: ");
 			idade = scan.nextInt();
-			System.out.println("\nQual sua características psicológicas: ");
-			System.out.println("\n1-Calma");
-			System.out.println("\n2-Nervosa");
-			System.out.println("\n3-Agressiva");
+			System.out.println("\nQual sua características psicológicas: \n1-Calma\n2-Nervosa\n3-Agressiva");
 			
 			t = scan.nextInt();
 			switch(t)
@@ -67,10 +61,7 @@ public class Atividade4 {
 			
 			System.out.println("\nQual sua idade: ");
 			idade = scan.nextInt();
-			System.out.println("\nQual sua características psicológicas: ");
-			System.out.println("\n1-Calmo");
-			System.out.println("\n2-Nervoso");
-			System.out.println("\n3-Agressivo");
+			System.out.println("\nQual sua características psicológicas: \n1-Calmo\n2-Nervoso\n3-Agressivo");
 			t = scan.nextInt();
 			
 			switch(t)
@@ -101,10 +92,7 @@ public class Atividade4 {
 			
 			System.out.println("\nQual sua idade: ");
 			idade = scan.nextInt();
-			System.out.println("\nQual sua características psicológicas: ");
-			System.out.println("\n1-Calma");
-			System.out.println("\n2-Nervosa");
-			System.out.println("\n3-Agressiva");
+			System.out.println("\nQual sua características psicológicas: \n1-Calma\n2-Nervosa\n3-Agressiva");
 			t = scan.nextInt();
 		
 			switch(t)
