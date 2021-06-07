@@ -12,23 +12,6 @@ public class Array1 {
 
 	public static void main(String[] args) {
 		
-		float [] A = {1,0,5,-2,-5,7};
-		float [] B = new float[6];
-		float num=0;
-		int x=0;
-	
-		Scanner scan = new Scanner(System.in);
-		
-		System.out.println("\nInsira um numero: ");
-	    B[x] = scan.nextInt();
-	    
-	    
-	    for(x=0;x<6;x++)
-	    {
-	    	B[x] = B[x] + A[x];
-	        System.out.println(B[x]); 
-    
-	    }
 
 	}
 
