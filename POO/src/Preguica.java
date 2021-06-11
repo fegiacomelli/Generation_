@@ -11,6 +11,17 @@ public class Preguica extends Animal {
 		this.tDormindo = tDormindo;
 	}
 	
+	@Override
+	public void som() 
+	{
+		System.out.println("Som emitido é: Sons de alta-frequência");
+	}
+	@Override
+	public void mover() 
+	{
+		System.out.println("Sua Movimentação: Lenta");
+	}
+	
 	public void print()
 	{
 		System.out.println("\nNome do animal: "+getNome()+"\nIdade: "+getIdade()+" anos"

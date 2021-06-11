@@ -1,9 +1,10 @@
 
-public class Animal {
+public abstract class Animal {
 
 	private String nome;
 	private int idade;
-	
+	abstract public void som();
+	abstract public void mover();
 	
 	public Animal(String nome,int idade)
 	{
